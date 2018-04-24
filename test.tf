@@ -11,6 +11,6 @@ resource "aws_instance" "omg" {
 }
 
 output "a_working_subnet" {
-  value = "aws_instance.omg.subnet_id"
+  value = "${aws_instance.omg.subnet_id}"
 }
 
