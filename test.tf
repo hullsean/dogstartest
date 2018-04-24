@@ -10,7 +10,7 @@ resource "aws_instance" "omg" {
   subnet_id = "subnet-1f866434"
 }
 
-#output "the_omg_subnet" {
-#  value = "aws_instance.omg.subnet_id"
-#}
+output "a_working_subnet" {
+  value = "aws_instance.omg.subnet_id"
+}
 
