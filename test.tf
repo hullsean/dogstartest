@@ -10,7 +10,7 @@ resource "aws_instance" "omg" {
   subnet_id = "subnet-1f866434"
 }
 
-output "a_working_subnet" {
+output "seanoutput" {
   value = "${aws_instance.omg.subnet_id}"
 }
 
